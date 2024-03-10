@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="registration.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Giga-chat - registration</title>
+</head>
+<body>
+<div class="registrationContainer">
+    <div class="registrationWrapperBlock">
+        <div class="titleBlock">Регистрация</div>
+        <div>
+            <form class="registrationForm">
+                {{> Input/BaseInput/Input label='Почта' type='email' name="email"  }}
+                {{> Input/BaseInput/Input label='Логин' type='text' name="password"   }}
+                {{> Input/BaseInput/Input label='Имя' type='text' name="first_name"  }}
+                {{> Input/BaseInput/Input label='Фамилия' type='text' name="second_name"   }}
+                {{> Input/BaseInput/Input label='Телефон' type='tel' name="phone"  }}
+                {{> Input/BaseInput/Input label='Пароль' type='password' name="password"   }}
+                {{> Input/BaseInput/Input label='Пароль (еще раз)' type='password' name="password"  }}
+                <div class="registrationWrapperActions">
+                    {{> Button/BaseButton/Button text='Зарегистрироваться' type='submit' href='../chat/chat.html' }}
+                    {{> Link/BaseLink/Link text="Войти" link="../authorization/authorization.html" }}
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@import url(../global.scss);
+@import url(../../components/Button/BaseButton/Button.scss);
+@import url(../../components/Input/BaseInput/Input.scss);
+@import url(../../components/Link/BaseLink/Link.scss);
+
+.errorContainer {
+  display: grid;
+  height: 100vh ;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorWrapper{
+  display: grid;
+  justify-items: center;
+}
+
+.errorBackLink{
+  text-decoration: none;
+  font-family: Inter, serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3369F3;
+}
