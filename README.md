@@ -25,5 +25,3 @@
 - [Профиль](https://aasoshnikov.netlify.app/profile/profile)
 - [500](https://aasoshnikov.netlify.app/500/500)
 - [404](https://aasoshnikov.netlify.app/400/400)
-
-
