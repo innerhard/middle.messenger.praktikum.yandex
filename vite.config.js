@@ -26,6 +26,8 @@ export default defineConfig({
         authorization: resolve(root, "authorization/authorization.html"),
         registration: resolve(root, "registration/registration.html"),
         profile: resolve(root, "profile/profile.html"),
+        'profile-edit': resolve(root, "profile/profile-edit.html"),
+        'profile-password': resolve(root, "profile/profile-password.html"),
         chat: resolve(root, "chat/chat.html"),
         "chat-view": resolve(root, "chat/chat-view.html"),
         400: resolve(root, "400/400.html"),
