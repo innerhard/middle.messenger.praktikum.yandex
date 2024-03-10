@@ -16,3 +16,12 @@
 - sass
 - handlebars
 - typescript
+
+
+### Ссылки на страницы сайта
+- [Авторизация](https://aasoshnikov.netlify.app/authorization/authorization)
+- [Регистрация](https://aasoshnikov.netlify.app/registration/registration)
+- [Чат](https://aasoshnikov.netlify.app/chat/chat)
+- [Профиль](https://aasoshnikov.netlify.app/profile/profile)
+- [500](https://aasoshnikov.netlify.app/500/500)
+- [404](https://aasoshnikov.netlify.app/400/400)
