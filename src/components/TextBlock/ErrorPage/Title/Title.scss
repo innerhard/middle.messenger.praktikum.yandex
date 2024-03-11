@@ -1,9 +1,7 @@
-.errorTitle{
-  font-family: Inter, serif;
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 40px;
-  letter-spacing: 0;
+@import "../../../../assets/variables";
+
+.errorTitle {
+  font: $font-large;
   text-align: center;
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
 }

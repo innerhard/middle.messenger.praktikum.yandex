@@ -1,29 +1,18 @@
-.base-button{
-  box-sizing: border-box;
-  font-family: Inter, serif;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 13px;
-  letter-spacing: 0;
+@import "../../../assets/variables";
+
+.base-button {
   width: 100%;
   text-align: center;
   height: fit-content;
   display: grid;
   border-radius: 8px;
   padding: 12px;
-  color: white;
-  background: #3369F3;
+  color: $button-color;
+  background: $button-bgcolor;
   cursor: pointer;
   user-select: none;
-  &:hover{
-    background: #618cfd;
-  }
 
-  &:active, /* активная/посещенная ссылка */
-  &:hover,
-  &:visited,
-  &:link{
-    text-decoration: none;
+  &:hover {
+    background: $button-bgcolor-hover;
   }
-
 }

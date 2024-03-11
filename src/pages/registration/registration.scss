@@ -1,8 +1,8 @@
-@import url(../global.scss);
+@import "../../assets/global.scss";
 
 .registrationContainer {
   display: grid;
-  min-height: 100vh ;
+  min-height: 100vh;
 }
 
 .registrationWrapperBlock {
@@ -13,7 +13,7 @@
   width: 340px;
   min-height: 450px;
   height: max-content;
-  box-shadow: 0 0 6px 0 #00000024;
+  box-shadow: $menu-shadow;
   justify-self: center;
   align-self: center;
   border-radius: 12px;
@@ -21,16 +21,11 @@
 
 .titleBlock {
   height: max-content;
-  font-family: Inter, serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
+  font: $font-big;
   text-align: center;
 }
 
-
-.registrationForm{
+.registrationForm {
   display: grid;
   grid-row-gap: 16px;
   grid-template-rows: max-content max-content 1fr;
@@ -38,7 +33,7 @@
   height: 100%;
 }
 
-.registrationWrapperActions{
+.registrationWrapperActions {
   align-self: end;
   display: grid;
   width: 100%;

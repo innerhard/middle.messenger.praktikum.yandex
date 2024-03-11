@@ -1,9 +1,7 @@
-.errorDescription{
-  font-family: Inter, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
+@import '../../../../assets/variables';
+
+.errorDescription {
+  font: $font-big;
   text-align: center;
-  margin-bottom: 69px ;
+  margin-bottom: 69px;
 }

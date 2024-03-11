@@ -1,45 +1,58 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
     <script
-      src="https://kit.fontawesome.com/27363bd172.js"
-      crossorigin="anonymous"
+            crossorigin="anonymous"
+            src="https://kit.fontawesome.com/27363bd172.js"
     ></script>
-    <link rel="stylesheet" href="profile.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="profile.scss" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
     <title>Giga-chat profile</title>
-  </head>
-  <body>
+</head>
+<body>
+<main>
     <div class="profileContainer">
-      <div class="profileBackBlockWrapper">
-        <a href="/chat/chat.html" class="button-back"
-          ><i class="fa-solid fa-arrow-left"></i
-        ></a>
-
-      </div>
-      <div class="profileDescriptionWrapper">
-        <div class="profilePersonInfo">
-          <div class="avatarProfile"><a class="changeAvatar">Поменять<br>аватар</a><i class="fa-regular fa-image"></i></div>
-          {{> TextBlock/Profile/Title/TitleNickName text='Володя' }}
+        <div class="profileBackBlockWrapper">
+            <a class="button-back" href="/chat/chat.html"
+            ><i class="fa-solid fa-arrow-left"></i
+            ></a>
         </div>
+        <div class="profileDescriptionWrapper">
+            <div class="profilePersonInfo">
+                <div class="avatarProfile">
+                    <a class="changeAvatar">Поменять<br/>аватар</a
+                    ><i class="fa-regular fa-image"></i>
+                </div>
+                {{> TextBlock/Profile/Title/TitleNickName text='Володя' }}
+            </div>
 
-        <form class="profileInputsContainer">
-          {{> Input/InputFormProfile/Input disabled='disabled' label='Почта' type='email' value='example@gmail.com' name="email"  }}
-          {{> Input/InputFormProfile/Input disabled='disabled' label='Логин' type='text' value='vsevolod1993' name="login"  }}
-          {{> Input/InputFormProfile/Input disabled='disabled' label='Имя' type='text' value='Володя' name="first_name"  }}
-          {{> Input/InputFormProfile/Input disabled='disabled' label='Фамилия' type='text' value='Иванов' name="second_name"  }}
-          {{> Input/InputFormProfile/Input disabled='disabled' label='Имя в чате' type='text' value='Vsevolod' name="display_name"  }}
-          {{> Input/InputFormProfile/Input disabled='disabled' label='Телефон' type='text' value='8(999) 999-99-99' name="phone"  }}
+            <form class="profileInputsContainer">
+                {{> Input/InputFormProfile/Input disabled='disabled' label='Почта'
+                type='email' value='example@gmail.com' name="email" }} {{>
+                Input/InputFormProfile/Input disabled='disabled' label='Логин'
+                type='text' value='vsevolod1993' name="login" }} {{>
+                Input/InputFormProfile/Input disabled='disabled' label='Имя'
+                type='text' value='Володя' name="first_name" }} {{>
+                Input/InputFormProfile/Input disabled='disabled' label='Фамилия'
+                type='text' value='Иванов' name="second_name" }} {{>
+                Input/InputFormProfile/Input disabled='disabled' label='Имя в чате'
+                type='text' value='Vsevolod' name="display_name" }} {{>
+                Input/InputFormProfile/Input disabled='disabled' label='Телефон'
+                type='text' value='8(999) 999-99-99' name="phone" }}
 
-          <div class="actionsElementsWrapper">
-            {{> Link/ActionLinkProfile/Link/ActionLink/Link text='Изменить данные' href='/profile/profile-edit.html' }}
-            {{> Link/ActionLinkProfile/Link/ActionLink/Link text='Изменить пароль' href='/profile/profile-password.html' }}
-            {{> Link/ActionLinkProfile/Link/ActionLink/Link text='Выйти' alert=true href='/authorization/authorization.html' }}
-          </div>
-        </form>
-      </div>
+                <div class="actionsElementsWrapper">
+                    {{> Link/ActionLinkProfile/Link/ActionLink/Link text='Изменить
+                    данные' href='/profile/profile-edit.html' }} {{>
+                    Link/ActionLinkProfile/Link/ActionLink/Link text='Изменить пароль'
+                    href='/profile/profile-password.html' }} {{>
+                    Link/ActionLinkProfile/Link/ActionLink/Link text='Выйти'
+                    alert=true href='/authorization/authorization.html' }}
+                </div>
+            </form>
+        </div>
     </div>
-  </body>
+</main>
+</body>
 </html>

@@ -1,43 +1,22 @@
+@import '../../../../../assets/variables';
+
 .actionsLinksElement {
   display: flex;
   align-items: center;
   height: 32px;
-  border-bottom: 1px solid #eaeaea;
-  &:last-child{
+  border-bottom: 1px solid $divider-line-color;
+
+  &:last-child {
     border: none;
   }
 }
 
 .actionLink {
-  font-family: Inter, serif;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 13px;
-  letter-spacing: 0;
   text-align: left;
-  color: #3369f3;
-
-  &:active, /* активная/посещенная ссылка */
-  &:hover,
-  &:visited,
-  &:link {
-    text-decoration: none;
-  }
 }
 
 .actionLinkAlert {
-  font-family: Inter, serif;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 13px;
   letter-spacing: 0;
   text-align: left;
-  color: #ff0000;
-
-  &:active, /* активная/посещенная ссылка */
-  &:hover,
-  &:visited,
-  &:link {
-    text-decoration: none;
-  }
+  color: $text-red;
 }
