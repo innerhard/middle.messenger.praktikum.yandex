@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <script
+            crossorigin="anonymous"
+            src="https://kit.fontawesome.com/27363bd172.js"
+    ></script>
+    <link href="profile.scss" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+    <title>Giga-chat profile-edit</title>
+</head>
+<body>
+<main>
+    <div class="profileContainer">
+        <div class="profileBackBlockWrapper">
+            <a class="button-back" href="/chat/chat.html"
+            ><i class="fa-solid fa-arrow-left"></i
+            ></a>
+        </div>
+        <div class="profileDescriptionWrapper">
+            <div class="profilePersonInfo">
+                <div class="avatarProfile"><i class="fa-regular fa-image"></i></div>
+                {{> TextBlock/Profile/Title/TitleNickName text='Володя' }}
+            </div>
+
+            <form class="profileInputsContainer">
+                {{> Input/InputFormProfile/Input label='Почта' type='email'
+                value='example@gmail.com' name="email" }} {{>
+                Input/InputFormProfile/Input label='Логин' type='text'
+                value='vsevolod1993' name="login" }} {{>
+                Input/InputFormProfile/Input label='Имя' type='text' value='Володя'
+                name="first_name" }} {{> Input/InputFormProfile/Input
+                label='Фамилия' type='text' value='Иванов' name="second_name" }} {{>
+                Input/InputFormProfile/Input label='Имя в чате' type='text'
+                value='Vsevolod' name="display_name" }} {{>
+                Input/InputFormProfile/Input label='Телефон' type='text'
+                value='8(999) 999-99-99' name="phone" }}
+                <div class="actionsElementsWrapper">
+                    {{> Link/ActionLinkProfile/Link/ActionButton/Button
+                    href='/profile/profile.html' text='Сохранить' }}
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>

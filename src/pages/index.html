@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="./authorization/authorization.scss" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+    <title>Giga-chat - authorization</title>
+</head>
+<body>
+<main>
+    <div class="authContainer">
+        <div class="authWrapperBlock">
+            <div class="titleBlock">Вход</div>
+            <div>
+                <form class="authForm">
+                    {{> Input/BaseInput/Input label='Логин' type='text' name="login"
+                    }} {{> Input/BaseInput/Input label='Пароль' type='password'
+                    name="password" }}
+                    <div class="authWrapperActions">
+                        {{> Button/BaseButton/Button text='Авторизоваться' type='submit'
+                        href='../chat/chat.html' }} {{> Link/BaseLink/Link text="Нет
+                        аккаунта?" link="../registration/registration.html" }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

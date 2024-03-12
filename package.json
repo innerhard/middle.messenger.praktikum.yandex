@@ -1,0 +1,25 @@
+{
+  "name": "giga-chat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "npm run build && node server.cjs",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "vite-plugin-handlebars": "^2.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.18.3",
+    "handlebars": "^4.7.8",
+    "prettier": "^3.2.5",
+    "sass": "^1.71.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}

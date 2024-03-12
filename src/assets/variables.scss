@@ -1,0 +1,59 @@
+$avatar-profile: #cdcdcd;
+$avatar-change-background: #000000;
+
+$font-body: Inter, "Segoe UI", "Roboto", "Helvetica Neue", sans-sans;
+
+$font-weight-regular: 500;
+$font-weight-semibold: 600;
+
+$font-large: #{$font-weight-regular} 40px/40px #{$font-body};
+$font-big: #{$font-weight-regular} 20px/20px #{$font-body};
+$font-title: #{$font-weight-semibold} 16px/16px #{$font-body};
+$font-regular: #{$font-weight-regular} 13px/13px #{$font-body};
+$font-small: #{$font-weight-regular} 12px/15px #{$font-body};
+$font-micro: #{$font-weight-regular} 11px/11px #{$font-body};
+$font-nano: #{$font-weight-regular} 9px/9px #{$font-body};
+
+$text-bgcolor: #FFF;
+$text-color: #000;
+$text-light-color: #999;
+$text-red: #FF0000;
+
+$link-color: #3369f3;
+$title-color: #1E1E1E;
+
+$button-color: #FFF;
+$button-bgcolor: #{$link-color};
+$button-bgcolor-hover: #618cfd;
+
+$menu-button-color: #{$button-bgcolor};
+$menu-button-bgcolor: #F5F5F5;
+
+$menu-font: #{$font-weight-regular} 12px/14px #{$font-body};
+$menu-bgcolor: #{$text-bgcolor};
+$menu-shadow: 0px 0px 6px #00000024;
+
+$divider-line-color: #EAEAEA;
+
+$messenger-list-bgcolor: #FBFBFB;
+$messenger-list-current-bgcolor: #E4EDFD;
+
+$messenger-message-font: #{$font-weight-regular} 12px/15px #{$font-body};
+$messenger-message-bgcolor: #F8F8F8;
+$messenger-message-color: #1E1E1E;
+$messenger-message-inverse-color: #FFF;
+$messenger-message-inverse-bgcolor: #52525280;
+$messenger-message-my-bgcolor: #E4EDFD;
+$messenger-message-my-color: #{$messenger-message-color};
+$messenger-message-my-time-color: #{$button-bgcolor};
+
+$dialog-bgcolor: #{$text-bgcolor};
+$dialog-shadow: #{$menu-shadow};
+
+$dialog-modal-overlay-bgcolor: #000066;
+$dialog-modal-content-shadow: #{$menu-shadow};
+$dialog-modal-title: #{$font-weight-regular} 15px/20px #{$font-body};
+
+$gray-light-color: #EFEFEF;
+
+$input-focus: #0f62fe;

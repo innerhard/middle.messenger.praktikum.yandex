@@ -1,0 +1,13 @@
+@import url(../../assets/global.scss);
+
+.errorContainer {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorWrapper {
+  display: grid;
+  justify-items: center;
+}

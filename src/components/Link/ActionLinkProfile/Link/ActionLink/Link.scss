@@ -1,0 +1,22 @@
+@import '../../../../../assets/variables';
+
+.actionsLinksElement {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  border-bottom: 1px solid $divider-line-color;
+
+  &:last-child {
+    border: none;
+  }
+}
+
+.actionLink {
+  text-align: left;
+}
+
+.actionLinkAlert {
+  letter-spacing: 0;
+  text-align: left;
+  color: $text-red;
+}

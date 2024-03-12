@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="400.scss" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+    <title>Авторизация</title>
+</head>
+<body>
+<main>
+    <div class="errorContainer">
+        <div class="errorWrapper">
+            {{> TextBlock/ErrorPage/Title/Title text="404" }} {{>
+            TextBlock/ErrorPage/Description/Description text="Не туда попали" }}
+            {{> Link/BaseLink/Link text="Назад к чатам" link="../chat/chat.html"
+            }}
+        </div>
+    </div>
+</main>
+</body>
+</html>

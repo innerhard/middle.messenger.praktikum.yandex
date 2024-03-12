@@ -1,0 +1,43 @@
+@import "../../assets/global";
+
+.authContainer {
+  display: grid;
+  min-height: 100vh;
+}
+
+.authWrapperBlock {
+  display: grid;
+  grid-template-rows: max-content 1fr;
+  grid-row-gap: 40px;
+  padding: 50px 30px 30px;
+  width: 340px;
+  min-height: 450px;
+  height: max-content;
+  box-shadow: $menu-shadow;
+  justify-self: center;
+  align-self: center;
+  border-radius: 12px;
+}
+
+.titleBlock {
+  font: $font-big;
+  height: max-content;
+  text-align: center;
+}
+
+.authForm {
+  display: grid;
+  grid-row-gap: 16px;
+  grid-template-rows: max-content max-content 1fr;
+  grid-auto-rows: max-content;
+  height: 100%;
+}
+
+.authWrapperActions {
+  display: grid;
+  grid-row-gap: 14px;
+  grid-auto-rows: max-content;
+  align-self: end;
+  justify-items: center;
+  width: 100%;
+}
